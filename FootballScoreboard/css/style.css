@@ -1,0 +1,175 @@
+#time {
+  color: white;
+  font-weight: bold;
+  font-size: 200px;
+  background-image: url(/FootballScoreboard/soccer.png);
+  height: 400px;
+  line-height: 400px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table {
+  width: 100%;
+  background-image: url(/FootballScoreboard/soccer.png);
+  background-repeat: repeat-x;
+  background-size: 50%;
+}
+
+h1 {
+  text-align: center;
+  height: 200px;
+  width: auto;
+  line-height: 200px;
+}
+#sepeator{
+  width: px;
+  background-color: rgb(16, 79, 252);
+}
+body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:black;
+        z-index: 1;
+    }
+
+#but {
+        text-align: center;
+    }
+
+#A-img,
+#B-img {
+        background-color: rgb(21, 168, 28);
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        line-height: 60px;
+        text-align: center;
+        font-weight: bold;
+        width: 50%;
+        max-height: 50%;
+    }
+td,th{
+        text-align: center;
+    }
+#goal1,
+#goal2 {
+        color: white;
+        font-size: 330px;
+        text-align: center;
+    }
+
+#A-team {
+        border-right-style: solid;
+        border-right-width: 2%;
+        border-color: white;
+    }
+
+#B-team,
+#A-team {
+        width: 49.8%;
+        height: 50%;
+        float: left;
+    }
+
+#half {
+        width: 100%;
+        height: 20%;
+        float: left;
+        font-size: 90px;
+    }
+
+#gname {
+        width: 100%;
+        height: 25%;
+        float: left;
+        font-size: 120px;
+    }
+
+#half,
+#gname {
+        color: aqua;
+        text-align: center;
+        float: left;
+    }
+
+#half,
+#gname,
+#B-team,
+#A-team {
+        background: rgb(136, 79, 79);
+    }
+
+#main {
+        height: 100%;
+    }
+#canvas-container {
+    margin: -auto 0 0 auto;
+    position: absolute;
+    width: 100%;
+    z-index: 2;    
+}
+
+canvas {
+    cursor: crosshair;
+    display: block;
+    position: relative;
+    z-index: 3;
+}
+
+canvas:active {
+    cursor: crosshair;
+}
+
+#gui {
+    right: 0;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+#teamWinner1{
+    width: 100%;
+    height: 100%;
+    right: 0;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    vertical-align: middle;
+    background-color: black;
+    visibility: hidden;
+    color: white;
+    font-size: 10vw;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#teamWinner2{
+    width: 100%;
+    height: 100%;
+    right: 0;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    vertical-align: middle;
+    background-color: black;
+    visibility: hidden;
+    color: white;
+    font-size: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+#imgGoal {
+    padding-top: 200px;
+    -webkit-animation: scale 3s infinite linear;
+}
+
+@-webkit-keyframes scale {
+		from {
+				-webkit-transform: scale(.5);
+		}
+		to {
+				-webkit-transform: scale(2);
+		}
+}

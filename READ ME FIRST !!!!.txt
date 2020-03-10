@@ -1,0 +1,24 @@
+FOOTBALL SCOREBOARD SYSTEM IN JAVASCRIPT
+
+
+***Thanks To Anoopknr***
+
+**Controls**
+
+- A,S,D,F to change Goals
+- J to start timer & resume
+- K to pause
+- R to reset Timer
+- M,N Keys for Timer increment& decrement
+
+
+***** IF YOU FIND ANY ERRORS OR ANY PROBLEMS RELATED THIS PROGRAM, FEEL FREE TO CONTACT US *****  
+
+
+***** LEAVE A COMMENT IF YOU LOVED OUR WORK *****
+
+
+***** FOR MORE PROJECTS :- https://code-projects.org/ *****
+
+
+THANK YOU FOR DOWNLOADING :) 
