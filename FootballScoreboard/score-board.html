@@ -34,8 +34,7 @@
         var game = 1;
         var countDown; //Oject for Countdown activity
         function getgoal() {
-            document.getElementById("goal1").innerHTML = goal1;
-            document.getElementById("goal2").innerHTML = goal2;
+            document.getElementById("goal1").innerHTML = goal1;            document.getElementById("goal2").innerHTML = goal2;
         }
         function countDownSecs() {
             if (seconds !== 0) {
@@ -168,7 +167,7 @@
              }else if(goal2 === 10) 
                  document.getElementById('teamWinner2').style.visibility="visible";
             }
-
+            console.log(countDownSecs);
         
     </script>
 </head>
@@ -176,11 +175,19 @@
 <body>
         <div id="teamWinner1">
             <center><h1  id="winnerTeam1" class="winner1">team1</h1><br>
+                <div class="participantes">
+                    <img src="./sujeto1.jpg" alt="sujeto 1" >
+                    <img src="./sujeto2.jpg" alt="sujeto 2" >
+                </div>
             <h1 class="winner1"> ¡Han ganado!</h1>
             </center>           
         </div>
         <div id="teamWinner2">
            <center><h1  id="winnerTeam2" class="winner2">team2</h1><br>
+            <div class="participantes">
+                <img src="./sujeto1.jpg" alt="sujeto 1" >
+                <img src="./sujeto2.jpg" alt="sujeto 2" >
+            </div>
             <h1 class="winner1"> ¡Han ganado!</h1>
         </div>
 
@@ -232,4 +239,3 @@
     document.getElementById("winnerTeam2").innerHTML = team2;
     console.log(goal1);
 </script>
-<! Coded With Love  >
